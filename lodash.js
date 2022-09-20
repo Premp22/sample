@@ -4,7 +4,7 @@ let frits = ["apple", "orange", "mango", "banana"];
 let fruit1 = lodash.chunk(frits, 2);
 console.log("the array chunk is:", fruit1);
 //last and first
-let num = [1, 2, 3, 4, 5, 5, 6];
+let nums = [1, 2, 3, 4, 5, 5, 6];
 let first = lodash.first(num);
 console.log("the first elements is:", first);
 let last = lodash.last(num);
